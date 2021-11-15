@@ -18,3 +18,7 @@ For some scheduled execution kind of stuff
 
     PingAt takes a time `hh`-`mm`-`ss`. It sends an empty struct to the channel `ch`
     when system time = given time. Repeats until `ctx` is closed.
+
+- PingAfter
+
+    PingAfter sends an empty struct to ch after duration d until ctx is closed.
